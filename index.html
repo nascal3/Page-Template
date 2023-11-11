@@ -9,10 +9,91 @@
     <link href="styles/bootstrap/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     <link href="styles/styles.css" rel="stylesheet"  crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <!-- Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings:
+                    'FILL' 0,
+                    'wght' 400,
+                    'GRAD' 0,
+                    'opsz' 24
+        }
+    </style>
+
+
+    <title>Page Template</title>
 </head>
 <body>
-<h2>Hello, world!</h2>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Company Logo</a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Services
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                        <li><a class="dropdown-item" href="#">Product 1</a></li>
+                        <li><a class="dropdown-item" href="#">Product 2</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Custom Product</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <div class="input-group">
+                    <span class="input-group-text" id="basic-addon1">
+                        <span class="material-symbols-outlined">search</span>
+                    </span>
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<!-- Main content -->
+<main>
+    <div class="container-fluid">
+        <div class="card">
+            <div class="card-body">
+                This is some text within a card body.
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                This is some text within a card body.
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                This is some text within a card body.
+            </div>
+        </div>
+    </div>
+</main>
+
+<!-- Footer -->
+<footer class="bg-dark footer">
+    <div>Company&copy; 2023</div>
+</footer>
+
+
 
 <!-- Bootstrap Bundle with Popper -->
 <script src="script/bootstrap/bootstrap.bundle.min.js" crossorigin="anonymous"></script>

@@ -17,6 +17,8 @@ html {
  */
 body {
   margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 /**
@@ -304,6 +306,31 @@ template {
  */
 [hidden] {
   display: none;
+}
+
+main {
+  position: relative;
+  height: 100vh;
+}
+main div {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px auto;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=styles.css.map */
