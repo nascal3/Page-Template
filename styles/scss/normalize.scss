@@ -236,6 +236,10 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
 legend {
   box-sizing: border-box; /* 1 */
   color: inherit; /* 2 */

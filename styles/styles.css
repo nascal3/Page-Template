@@ -208,6 +208,10 @@ fieldset {
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
 legend {
   box-sizing: border-box; /* 1 */
   color: inherit; /* 2 */
